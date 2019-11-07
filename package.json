@@ -1,0 +1,15 @@
+{
+  "name": "div",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "http-server & node-sass --watch --output-style compressed -o css scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "node-sass": "^4.13.0"
+  }
+}
