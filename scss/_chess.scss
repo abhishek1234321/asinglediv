@@ -1,0 +1,93 @@
+$chess-dark: #000;
+$chess-light: #fff;
+$chess-border: green;
+
+.chess-board {
+  width: 100px;
+  height: 100px;
+
+  background: $chess-light;
+
+  box-shadow: 
+              // 1st row
+              100px 0 0 0 $chess-dark,
+              200px 0 0 0 $chess-light,
+              300px 0 0 0 $chess-dark,
+              400px 0 0 0 $chess-light,
+              500px 0 0 0 $chess-dark,
+              600px 0 0 0 $chess-light,
+              700px 0 0 0 $chess-dark,
+              800px 0 0 0 $chess-light,
+
+              // 2nd row
+              0 100px 0 0 $chess-dark,
+              100px 100px 0 0 $chess-light,
+              200px 100px 0 0 $chess-dark,
+              300px 100px 0 0 $chess-light,
+              400px 100px 0 0 $chess-dark,
+              500px 100px 0 0 $chess-light,
+              600px 100px 0 0 $chess-dark,
+              700px 100px 0 0 $chess-light,
+
+              // 3rd row
+              100px 200px 0 0 $chess-dark,
+              200px 200px 0 0 $chess-light,
+              300px 200px 0 0 $chess-dark,
+              400px 200px 0 0 $chess-light,
+              500px 200px 0 0 $chess-dark,
+              600px 200px 0 0 $chess-light,
+              700px 200px 0 0 $chess-dark,
+              800px 200px 0 0 $chess-light,
+
+              // 4th row
+              0 300px 0 0 $chess-dark,
+              100px 300px 0 0 $chess-light,
+              200px 300px 0 0 $chess-dark,
+              300px 300px 0 0 $chess-light,
+              400px 300px 0 0 $chess-dark,
+              500px 300px 0 0 $chess-light,
+              600px 300px 0 0 $chess-dark,
+              700px 300px 0 0 $chess-light,
+
+              // 5th row
+              100px 400px 0 0 $chess-dark,
+              200px 400px 0 0 $chess-light,
+              300px 400px 0 0 $chess-dark,
+              400px 400px 0 0 $chess-light,
+              500px 400px 0 0 $chess-dark,
+              600px 400px 0 0 $chess-light,
+              700px 400px 0 0 $chess-dark,
+              800px 400px 0 0 $chess-light,
+
+              // 6th row
+              0 500px 0 0 $chess-dark,
+              100px 500px 0 0 $chess-light,
+              200px 500px 0 0 $chess-dark,
+              300px 500px 0 0 $chess-light,
+              400px 500px 0 0 $chess-dark,
+              500px 500px 0 0 $chess-light,
+              600px 500px 0 0 $chess-dark,
+              700px 500px 0 0 $chess-light,
+
+              // 7th row
+              100px 600px 0 0 $chess-dark,
+              200px 600px 0 0 $chess-light,
+              300px 600px 0 0 $chess-dark,
+              400px 600px 0 0 $chess-light,
+              500px 600px 0 0 $chess-dark,
+              600px 600px 0 0 $chess-light,
+              700px 600px 0 0 $chess-dark,
+              800px 600px 0 0 $chess-light,
+
+              // 8th row
+              0 700px 0 0 $chess-dark,
+              100px 700px 0 0 $chess-light,
+              200px 700px 0 0 $chess-dark,
+              300px 700px 0 0 $chess-light,
+              400px 700px 0 0 $chess-dark,
+              500px 700px 0 0 $chess-light,
+              600px 700px 0 0 $chess-dark,
+              700px 700px 0 0 $chess-light,
+            ;
+
+}
